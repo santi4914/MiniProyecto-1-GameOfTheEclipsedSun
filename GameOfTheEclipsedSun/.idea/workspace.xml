@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="40cc68bd-7105-4dfb-8943-b5d49aaf442b" name="Changes" comment="el ahorcado aparece de acuerdo a la cantidad de veces que se equivoca el usuario, las pistas tienen su contador funcionando correctamente y solo se dan un maximo de 3.&#10;Solo falta que el usuario no pueda ingresar numeros o espacios en el textField del GameStage">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/juegodeahorcado/image/perdedor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/juegodeahorcado/controller/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/juegodeahorcado/controller/GameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/juegodeahorcado/model/AnalizeLetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/juegodeahorcado/model/AnalizeLetter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/juegodeahorcado/model/Winner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/juegodeahorcado/model/WinnerLoserImage.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/example/juegodeahorcado/controller/GameController.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2eNSbyT1F93nDZEWkishNz9ash2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/natis/Downloads/ahorcadofinal - copia/ahorcadofinal - copia&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\natis\IdeaProjects\JuegoDeAhorcado\src\main\resources\org\example\juegodeahorcado" />
+      <recent name="C:\Users\natis\IdeaProjects\JuegoDeAhorcado\src\main\java\org\example\juegodeahorcado" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="40cc68bd-7105-4dfb-8943-b5d49aaf442b" name="Changes" comment="" />
+      <created>1711743620678</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711743620678</updated>
+      <workItem from="1711743621889" duration="15297000" />
+      <workItem from="1711767911038" duration="2995000" />
+      <workItem from="1711830430344" duration="6518000" />
+      <workItem from="1712029055122" duration="20803000" />
+      <workItem from="1712155309827" duration="17908000" />
+      <workItem from="1712191031073" duration="3185000" />
+      <workItem from="1712247904518" duration="4917000" />
+    </task>
+    <task id="LOCAL-00001" summary="Cambios minimos">
+      <option name="closed" value="true" />
+      <created>1711748231398</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711748231398</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Botones agregados a la interfaz">
+      <option name="closed" value="true" />
+      <created>1711752720088</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711752720088</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Botones agregados a la interfaz y ID's agregados">
+      <option name="closed" value="true" />
+      <created>1711752831155</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711752831155</updated>
+    </task>
+    <task id="LOCAL-00004" summary="identifica si la letra seleccionada está en la palabra, aun no aparecen los espacios de las letras de la palabra secreta, pero estoy en eso">
+      <option name="closed" value="true" />
+      <created>1711763334359</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711763334359</updated>
+    </task>
+    <task id="LOCAL-00005" summary="identifica si la letra seleccionada está en la palabra, aun no aparecen los espacios de las letras de la palabra secreta, pero estoy en eso">
+      <option name="closed" value="true" />
+      <created>1711763801552</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711763801553</updated>
+    </task>
+    <task id="LOCAL-00006" summary="identifica si la letra seleccionada está en la palabra, aun no aparecen los espacios de las letras de la palabra secreta, pero estoy en eso">
+      <option name="closed" value="true" />
+      <created>1711767847351</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1711767847351</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Cambios respecto a la interfaz, aun reconoce las letras si estan o no en la palabra, pero aun no está el elemento donde se muestran">
+      <option name="closed" value="true" />
+      <created>1711770669160</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1711770669160</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Los intentos restantes no funcionan del todo :(">
+      <option name="closed" value="true" />
+      <created>1711836381000</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1711836381000</updated>
+    </task>
+    <task id="LOCAL-00009" summary="muestra los espacios correspondientes a las letras y se asignan en el espacio correspondiente si están sí estan en la palabra secreta">
+      <option name="closed" value="true" />
+      <created>1712075457736</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1712075457736</updated>
+    </task>
+    <task id="LOCAL-00010" summary="muestra los espacios correspondientes a las letras y se asignan en el espacio correspondiente si están sí estan en la palabra secreta&#10;Adicionalmente, la posibilidad de ingresar la letra solo aparecera si se presiono el boton comenzar juego">
+      <option name="closed" value="true" />
+      <created>1712085477445</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1712085477445</updated>
+    </task>
+    <task id="LOCAL-00011" summary="muestra los espacios correspondientes a las letras y se asignan en el espacio correspondiente si están sí estan en la palabra secreta&#10;Adicionalmente, la posibilidad de ingresar la letra solo aparecera si se presiono el boton comenzar juego">
+      <option name="closed" value="true" />
+      <created>1712102798498</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1712102798498</updated>
+    </task>
+    <task id="LOCAL-00012" summary="muestra los espacios correspondientes a las letras y se asignan en el espacio correspondiente si están sí estan en la palabra secreta&#10;Adicionalmente, la posibilidad de ingresar la letra solo aparecera si se presiono el boton comenzar juego">
+      <option name="closed" value="true" />
+      <created>1712103146797</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1712103146797</updated>
+    </task>
+    <task id="LOCAL-00013" summary="muestra los espacios correspondientes a las letras y se asignan en el espacio correspondiente si están sí estan en la palabra secreta&#10;Adicionalmente, la posibilidad de ingresar la letra solo aparecera si se presiono el boton comenzar juego">
+      <option name="closed" value="true" />
+      <created>1712104557863</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1712104557863</updated>
+    </task>
+    <task id="LOCAL-00014" summary="cambios añadidos al boton de (?) del gameStage">
+      <option name="closed" value="true" />
+      <created>1712164468567</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1712164468567</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Ya da pistas, yeeeih">
+      <option name="closed" value="true" />
+      <created>1712181956385</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1712181956385</updated>
+    </task>
+    <task id="LOCAL-00016" summary="finaliza el juego si la persona ganó, da las pistas y se optimizaron procesos respecto a los alerts">
+      <option name="closed" value="true" />
+      <created>1712196100730</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1712196100730</updated>
+    </task>
+    <task id="LOCAL-00017" summary="el juego finaliza al acabar todos los intentos posibles. Las imagenes del ahorcado también aparecen como deben">
+      <option name="closed" value="true" />
+      <created>1712201428409</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1712201428410</updated>
+    </task>
+    <task id="LOCAL-00018" summary="el ahorcado aparece de acuerdo a la cantidad de veces que se equivoca el usuario, las pistas tienen su contador funcionando correctamente y solo se dan un maximo de 3.&#10;Solo falta que el usuario no pueda ingresar numeros o espacios en el textField del GameStage">
+      <option name="closed" value="true" />
+      <created>1712203749642</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1712203749642</updated>
+    </task>
+    <task id="LOCAL-00019" summary="el ahorcado aparece de acuerdo a la cantidad de veces que se equivoca el usuario, las pistas tienen su contador funcionando correctamente y solo se dan un maximo de 3.&#10;Solo falta que el usuario no pueda ingresar numeros o espacios en el textField del GameStage">
+      <option name="closed" value="true" />
+      <created>1712250060539</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1712250060540</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Cambios minimos" />
+    <MESSAGE value="Botones agregados a la interfaz" />
+    <MESSAGE value="Botones agregados a la interfaz y ID's agregados" />
+    <MESSAGE value="identifica si la letra seleccionada está en la palabra, aun no aparecen los espacios de las letras de la palabra secreta, pero estoy en eso" />
+    <MESSAGE value="Cambios respecto a la interfaz, aun reconoce las letras si estan o no en la palabra, pero aun no está el elemento donde se muestran" />
+    <MESSAGE value="Los intentos restantes no funcionan del todo :(" />
+    <MESSAGE value="muestra los espacios correspondientes a las letras y se asignan en el espacio correspondiente si están sí estan en la palabra secreta" />
+    <MESSAGE value="muestra los espacios correspondientes a las letras y se asignan en el espacio correspondiente si están sí estan en la palabra secreta&#10;Adicionalmente, la posibilidad de ingresar la letra solo aparecera si se presiono el boton comenzar juego" />
+    <MESSAGE value="cambios añadidos al boton de (?) del gameStage" />
+    <MESSAGE value="Ya da pistas, yeeeih" />
+    <MESSAGE value="finaliza el juego si la persona ganó, da las pistas y se optimizaron procesos respecto a los alerts" />
+    <MESSAGE value="el juego finaliza al acabar todos los intentos posibles. Las imagenes del ahorcado también aparecen como deben" />
+    <MESSAGE value="el ahorcado aparece de acuerdo a la cantidad de veces que se equivoca el usuario, las pistas tienen su contador funcionando correctamente y solo se dan un maximo de 3.&#10;Solo falta que el usuario no pueda ingresar numeros o espacios en el textField del GameStage" />
+    <option name="LAST_COMMIT_MESSAGE" value="el ahorcado aparece de acuerdo a la cantidad de veces que se equivoca el usuario, las pistas tienen su contador funcionando correctamente y solo se dan un maximo de 3.&#10;Solo falta que el usuario no pueda ingresar numeros o espacios en el textField del GameStage" />
+  </component>
+</project>

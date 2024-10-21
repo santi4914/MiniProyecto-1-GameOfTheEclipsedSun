@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-image: url('https://img.freepik.com/foto-gratis/fondo-abstracto-textura_1258-30447.jpg?size=626&amp;ext=jpg&amp;ga=GA1.1.2008272138.1727222400&amp;semt=ais_hybrid');" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.gameoftheeclipsedsun.controller.GameController">
+    <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="360.0" minWidth="10.0" prefWidth="301.0" />
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="306.0" minWidth="10.0" prefWidth="299.0" />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints maxHeight="199.0" minHeight="6.0" prefHeight="10.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="267.0" minHeight="10.0" prefHeight="244.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="104.0" minHeight="10.0" prefHeight="104.0" vgrow="SOMETIMES" />
+    </rowConstraints>
+    <children>
+        <HBox alignment="CENTER" maxHeight="30.0" prefHeight="62.0" prefWidth="600.0" spacing="8.0" style="-fx-background-image: url('https://img.freepik.com/foto-gratis/gradiente-color-gris-desenfoque-lujo-abstracto-utilizado-como-pared-estudio-fondo-exhibir-sus-productos_1258-54074.jpg');" GridPane.columnSpan="2">
+            <children>
+                <Label alignment="CENTER" contentDisplay="CENTER" text="¡A JUGAR!">
+                    <font>
+                        <Font name="Arial Black" size="19.0" />
+                    </font></Label>
+                <Button alignment="CENTER" mnemonicParsing="false" onAction="#onHandleButtonQuestion" prefHeight="21.0" prefWidth="13.0" style="-fx-background-color: white; -fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: black; -fx-border-width: 1.3px;" text="?" textAlignment="CENTER">
+                    <font>
+                        <Font name="Roboto Medium" size="16.0" />
+                    </font>
+                    <padding>
+                        <Insets bottom="2.0" left="3.0" right="3.0" top="2.0" />
+                    </padding>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+            <Button fx:id="hintBtn" alignment="CENTER" mnemonicParsing="false" onAction="#onHandleButtonHelp" prefHeight="28.0" prefWidth="78.0" style="-fx-background-color: white; -fx-background-radius: 20; -fx-border-color: black; -fx-border-radius: 20; -fx-border-style: dashed; -fx-border-width: 1.3px;" text="Ayuda" visible="false">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="Showcard Gothic" size="11.0" />
+               </font></Button>
+            </children>
+        </HBox>
+        <AnchorPane fx:id="anchorPaneHangMan" maxHeight="370.0" maxWidth="299.0" prefHeight="410.0" prefWidth="333.0" style="-fx-background-color: #0F52BA;" GridPane.rowIndex="1" GridPane.rowSpan="2">
+         <children>
+            <ImageView fx:id="imgViewEclipsed" fitHeight="370.0" fitWidth="299.0" pickOnBounds="true" preserveRatio="true" />
+            <TextArea layoutX="14.0" layoutY="202.0" prefHeight="148.0" prefWidth="278.0" text="RECUERDA:&#10;N°1: Ingrese una letra del abecedario español,&#10;incluyendo letras con acento, si es el caso.&#10;N°2: No se permite el ingreso de símbolos y/o &#10;caracteres no válidos.&#10;N°3: Puedes hacer uso del botón de ayuda para&#10;descifrar una letra.&#10;" />
+         </children></AnchorPane>
+        <BorderPane prefHeight="371.0" prefWidth="318.0" GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.rowSpan="2">
+            <center>
+                <AnchorPane fx:id="anchorPaneWord" prefHeight="235.0" prefWidth="299.0" BorderPane.alignment="CENTER">
+                    <BorderPane.margin>
+                        <Insets top="10.0" />
+                    </BorderPane.margin>
+                    <children>
+                        <Label fx:id="textBase1" alignment="CENTER" layoutX="27.0" layoutY="205.0" text="INGRESA UNA LETRA DEL ABECEDARIO" visible="false">
+                     <font>
+                        <Font name="Segoe UI Black" size="13.0" />
+                     </font></Label>
+                        <TextField fx:id="textFieldLetter" alignment="CENTER" layoutX="113.0" layoutY="132.0" onAction="#onHandleTextFieldLetter" prefHeight="65.0" prefWidth="73.0" style="-fx-border-color: black; -fx-border-radius: 10; -fx-background-color: lightgray; -fx-background-radius: 10; -fx-border-width: 1.5px;" visible="false">
+                            <cursor>
+                                <Cursor fx:constant="TEXT" />
+                            </cursor>
+                            <font>
+                                <Font name="Ink Free" size="24.0" />
+                            </font>
+                        </TextField>
+                        <HBox fx:id="hBoxLetters" layoutX="13.0" layoutY="22.0" prefHeight="85.0" prefWidth="276.0" />
+                        <Button fx:id="startGameBtn" layoutX="87.0" layoutY="132.0" mnemonicParsing="false" onAction="#onHandleButtonStartGame" style="-fx-background-radius: 22; -fx-border-radius: 22; -fx-border-color: black; -fx-background-color: white; -fx-border-width: 1.5px;" text="COMENZAR JUEGO">
+                     <font>
+                        <Font name="Segoe UI Black" size="12.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                    </children>
+                </AnchorPane>
+            </center>
+            <top>
+                <Pane prefHeight="37.0" prefWidth="299.0" BorderPane.alignment="CENTER">
+                    <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="28.0" layoutY="5.0" text="¡ADIVINA LA PALABRA!">
+                            <font>
+                                <Font name="Arial Black" size="19.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </Pane>
+            </top>
+            <bottom>
+                <GridPane alignment="CENTER_RIGHT" prefHeight="60.0" prefWidth="278.0" style="-fx-border-style: dashed; -fx-border-color: black; -fx-border-width: 1.5px;" BorderPane.alignment="CENTER">
+                    <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                    <children>
+                        <Label alignment="CENTER_RIGHT" prefHeight="16.0" prefWidth="148.0" text="Intentos Inscritos:">
+                            <padding>
+                                <Insets left="40.0" />
+                            </padding>
+                     <font>
+                        <Font name="Rockwell" size="12.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                        </Label>
+                        <Label prefHeight="16.0" prefWidth="148.0" text="Pistas Usadas:" GridPane.rowIndex="1">
+                            <padding>
+                                <Insets left="70.0" />
+                            </padding>
+                     <font>
+                        <Font name="Rockwell" size="12.0" />
+                     </font>
+                        </Label>
+                        <Label fx:id="labelTries" alignment="CENTER" contentDisplay="CENTER" prefHeight="18.0" prefWidth="18.0" style="-fx-border-color: black;" textAlignment="CENTER" GridPane.columnIndex="1">
+                     <font>
+                        <Font name="Ink Free" size="12.0" />
+                     </font></Label>
+                        <Label fx:id="hintsUsed" alignment="CENTER" prefHeight="18.0" prefWidth="18.0" style="-fx-border-color: black;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Ink Free" size="12.0" />
+                     </font></Label>
+                    </children>
+                </GridPane>
+            </bottom>
+        </BorderPane>
+    </children>
+</GridPane>
